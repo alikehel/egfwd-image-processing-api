@@ -1,0 +1,23 @@
+{
+  "name": "egfwd-image-processing-api",
+  "version": "1.0.0",
+  "description": "An image API for resizing and scaling images",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisaber272/egfwd-image-processing-api.git"
+  },
+  "keywords": [
+    "image",
+    "processing"
+  ],
+  "author": "Ali Kehel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisaber272/egfwd-image-processing-api/issues"
+  },
+  "homepage": "https://github.com/alisaber272/egfwd-image-processing-api#readme"
+}
