@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { Request, Response, Router } from 'express';
 import convertRoute from './routes/convert/index';
 import cors from 'cors';
 
@@ -8,11 +8,11 @@ const port = 3000;
 
 app.use(cors());
 
-app.get('/', (req, res) => {
+app.get('/', (req: Request, res: Response): void => {
 	res.send('Home');
 });
 
-app.use('/convert', convertRoute);
+app.use('/convert', convertRoute as Router);
 
 app.listen(port, () => {
 	console.log(`Server is running at port http://localhost:${port}`);
